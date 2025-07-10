@@ -1,0 +1,167 @@
+body {
+    background-color: rgba(128, 128, 128, 0.445);
+}
+
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot1 {
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2 {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot3 {
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot4 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.459);
+}
+
+.box {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.header>h3 {
+    margin-left: 160px;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Chivo', sans-serif;
+}
+
+.heading>p {
+    margin-right: 70px;
+    margin-top: 40px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container>img {
+    height: 300px;
+    margin-top: 20px;
+}
+
+.wrapbox {
+    margin-left: 70px;
+}
+
+.displaybox {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.pricebox>p {
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.wrp {
+    display: flex;
+    background-color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    border-top: 1px solid rgba(128, 128, 128, 0.459);
+}
+
+.maintotalbox {
+    background-color: #fff;
+}
+
+.subtotalbox {
+    background-color: #fff;
+    font-weight: 600;
+    margin-left: 1000px;
+}
+
+.buybox {
+    padding: 14px;
+    cursor: pointer;
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.5s;
+    border: 1px solid #000;
+}
+
+.buybox:hover {
+    color: #000;
+    background-color: #1c6644;
+}
+
+@media (max-width: 767px) {
+    .mainbox {
+        flex-wrap: wrap;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .displaybox {
+        flex-wrap: wrap;
+    }
+
+    .wrp {
+        flex-wrap: wrap;
+    }
+
+    .container>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .header {
+        text-align: center;
+        margin-right: 150px;
+    }
+
+    .heading>p {
+        text-align: center;
+        margin-left: 50px;
+    }
+}
